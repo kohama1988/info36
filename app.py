@@ -4,6 +4,7 @@ from flask import Flask, render_template,session
 from flask_sqlalchemy import SQLAlchemy
 from redis import StrictRedis
 from flask_session import Session
+from flask_wtf.csrf import CSRFProtect
 
 app = Flask(__name__)
 
@@ -12,7 +13,7 @@ app = Flask(__name__)
 1. 数据库配置
 2. redis配置: 缓存访问频率高的内容，存储session信息，图片验证码，短信验证码
 3. session配置: 用来保存用户的登录信息
-4. csrf配置
+4. csrf配置: 保护app，放置csrf攻击
 """
 
 class Config():
@@ -45,7 +46,10 @@ redis_store = StrictRedis(host=Config.REDIS_HOST,
 # 创建Session对象，读取app中session配置信息
 Session(app)
 
-@app.route('/')
+# 使用CSRFProtect保护app
+CSRFProtect(app)
+
+@app.route('/', methods=['POST','GET'])
 def hello_world():
     # 测试redis存储数据
     redis_store.set('name','kohama')
