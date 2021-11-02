@@ -642,3 +642,135 @@ ERROR __init__.py:98 Error: Directory migrations already exists and is not empty
 INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/migrations/env.py', reloading
 INFO _internal.py:225  * Restarting with stat
 INFO _internal.py:225 127.0.0.1 - - [26/Oct/2021 00:16:53] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [28/Oct/2021 13:22:42] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [28/Oct/2021 13:22:43] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [28/Oct/2021 13:22:43] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [28/Oct/2021 13:22:43] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [28/Oct/2021 13:22:43] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [28/Oct/2021 13:22:43] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [28/Oct/2021 13:22:43] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [28/Oct/2021 13:22:43] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [28/Oct/2021 13:22:43] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [28/Oct/2021 13:22:43] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [28/Oct/2021 13:22:43] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [28/Oct/2021 13:22:43] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [28/Oct/2021 13:22:43] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:48] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:48] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:48] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:48] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:48] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:48] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:48] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:48] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:48] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:48] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:48] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:49] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:49] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:33:49] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:37:57] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:47:10] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:47:32] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:55:41] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:57:37] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:57:38] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:58:03] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:58:03] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:58:07] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:58:07] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:17] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:17] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:33] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:34] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:225  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:48] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 22:59:48] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:04] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:42] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:52] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:53] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:53] "GET /passport/image_code?cur_id=b151f010-dee6-4d6c-876b-8ba361aa74da&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:56] "GET /passport/image_code?cur_id=a4fdeaa7-9e73-4bd0-aae4-ba0f92164bf9&pre_id=b151f010-dee6-4d6c-876b-8ba361aa74da HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:03:59] "GET /passport/image_code?cur_id=7c755cf3-47fd-47a2-a3f3-c718056f5b11&pre_id=a4fdeaa7-9e73-4bd0-aae4-ba0f92164bf9 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:06:21] "GET /passport/image_code?cur_id=130c0599-8677-40bf-b315-bf7b11bfa178&pre_id=7c755cf3-47fd-47a2-a3f3-c718056f5b11 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:06:22] "GET /passport/image_code?cur_id=29f02811-4f2c-473c-a7bb-d1adea458d30&pre_id=130c0599-8677-40bf-b315-bf7b11bfa178 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:06:22] "GET /passport/image_code?cur_id=fabca759-e8d4-4b56-9834-e14198a61eb7&pre_id=29f02811-4f2c-473c-a7bb-d1adea458d30 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:06:23] "GET /passport/image_code?cur_id=1bb731e0-d2ab-469c-b610-b533f2745072&pre_id=fabca759-e8d4-4b56-9834-e14198a61eb7 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:06:24] "GET /passport/image_code?cur_id=35cd681b-f45e-4f2b-8ed1-9b44d393f3d9&pre_id=1bb731e0-d2ab-469c-b610-b533f2745072 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:06:25] "GET /passport/image_code?cur_id=29b180e5-1e2b-4378-8ff6-adea7cafd063&pre_id=35cd681b-f45e-4f2b-8ed1-9b44d393f3d9 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:14:54] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:14:56] "GET /passport/image_code?cur_id=eae5de40-d013-4da8-983f-8c690fb1e62c&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:14:57] "GET /passport/image_code?cur_id=fcc68d4f-6e43-461b-8ad7-c6dd7f27572d&pre_id=eae5de40-d013-4da8-983f-8c690fb1e62c HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:14:58] "GET /passport/image_code?cur_id=beebe036-3f06-4bb0-8c5d-7941006fd065&pre_id=fcc68d4f-6e43-461b-8ad7-c6dd7f27572d HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:14:59] "GET /passport/image_code?cur_id=4dae8aa2-f2b8-47d7-8100-6df42bb76e6e&pre_id=beebe036-3f06-4bb0-8c5d-7941006fd065 HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/passport/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:17:58] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:18:00] "GET /passport/image_code?cur_id=796bd152-2529-4b1a-a443-a576d8931c76&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:18:01] "GET /passport/image_code?cur_id=badf68e8-f2a9-42f2-8b5b-f7c2edb915b0&pre_id=796bd152-2529-4b1a-a443-a576d8931c76 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:18:02] "GET /passport/image_code?cur_id=4fc80c03-e7cc-453a-9493-23897b80b4d8&pre_id=badf68e8-f2a9-42f2-8b5b-f7c2edb915b0 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:18:02] "GET /passport/image_code?cur_id=b0069137-f9cc-4dc4-a850-82420af34201&pre_id=4fc80c03-e7cc-453a-9493-23897b80b4d8 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:18:03] "GET /passport/image_code?cur_id=1315a2aa-6c62-4396-8fb9-e233736335af&pre_id=b0069137-f9cc-4dc4-a850-82420af34201 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:18:03] "GET /passport/image_code?cur_id=53834042-8230-4d4b-88db-f4a971315461&pre_id=1315a2aa-6c62-4396-8fb9-e233736335af HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:18:04] "GET /passport/image_code?cur_id=a89a1581-cbaf-4f3d-8706-a7eee75be8ee&pre_id=53834042-8230-4d4b-88db-f4a971315461 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:18:05] "GET /passport/image_code?cur_id=8d2b0afe-75c6-497f-8977-d411ec1496d1&pre_id=a89a1581-cbaf-4f3d-8706-a7eee75be8ee HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:18:05] "GET /passport/image_code?cur_id=64df540b-fd9b-4cb3-a7f3-c4caa05866ca&pre_id=8d2b0afe-75c6-497f-8977-d411ec1496d1 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:18:05] "GET /passport/image_code?cur_id=0c3361b9-8d75-441e-bd49-cf8135f1b5c2&pre_id=64df540b-fd9b-4cb3-a7f3-c4caa05866ca HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:18:05] "GET /passport/image_code?cur_id=75c71490-2069-450b-b94f-3b68335c4639&pre_id=0c3361b9-8d75-441e-bd49-cf8135f1b5c2 HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/passport/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/passport/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/passport/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/passport/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:11] "[35m[1mGET /passport/image_code HTTP/1.1[0m" 500 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:11] "GET /passport/image_code?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:11] "GET /passport/image_code?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:11] "GET /passport/image_code?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:11] "GET /passport/image_code?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:11] "GET /passport/image_code?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/passport/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:19] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/passport/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:41] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:42] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:43] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:44] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:44] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:45] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:47] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:48] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [02/Nov/2021 23:28:48] "GET /passport/image_code HTTP/1.1" 200 -
