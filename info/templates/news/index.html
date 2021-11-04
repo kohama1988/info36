@@ -137,6 +137,7 @@
 
     <!-- 注册表单 -->
     <form class="register_form_con">
+{#        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">#}
         <div class="register_form">
             <div class="register_title">
                 <h3>注 册</h3>
@@ -144,7 +145,7 @@
             </div>
             <div class="form_group">
                 <input type="text" name="mobile" autocomplete="off" id="register_mobile" class="phone_input">
-                <div class="input_tip">手机号</div>
+                <div id="register-sms-code-err" class="input_tip">手机号</div>
                 <div id="register-mobile-err" class="error_tip">手机号不能为空</div>
             </div>
             <div class="form_group">
@@ -153,12 +154,12 @@
                 <img src="../../static/news/images/pic_code.png" class="get_pic_code" onclick="generateImageCode()">
                 <div id="register-image-code-err" class="error_tip">图形码不能为空</div>
             </div>
-            <div class="form_group">
-                <input type="text" name="smscode" id="smscode" class="code_pwd">
-                <div class="input_tip">手机验证码</div>
-                <a href="javascript:;" class="get_code" onclick="sendSMSCode()">点击获取验证码</a>
-                <div id="register-sms-code-err" class="error_tip">验证码不能为空</div>
-            </div>
+{#            <div class="form_group">#}
+{#                <input type="text" name="smscode" id="smscode" class="code_pwd">#}
+{#                <div class="input_tip">手机验证码</div>#}
+{#                <a href="javascript:;" class="get_code" onclick="sendSMSCode()">点击获取验证码</a>#}
+{#                <div id="register-sms-code-err" class="error_tip">验证码不能为空</div>#}
+{#            </div>#}
             <div class="form_group">
                 <input type="password" name="password" id="register_password" class="pass_input">
                 <div class="input_tip">密码(不少于6位)</div>

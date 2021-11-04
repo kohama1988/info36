@@ -152,17 +152,17 @@ $(function(){
 
 		// 取到用户输入的内容
         var mobile = $("#register_mobile").val()
-        var smscode = $("#smscode").val()
+        // var smscode = $("#smscode").val()
         var password = $("#register_password").val()
 
 		if (!mobile) {
             $("#register-mobile-err").show();
             return;
         }
-        if (!smscode) {
-            $("#register-sms-code-err").show();
-            return;
-        }
+        // if (!smscode) {
+        //     $("#register-sms-code-err").show();
+        //     return;
+        // }
         if (!password) {
             $("#register-password-err").html("请填写密码!");
             $("#register-password-err").show();
@@ -179,16 +179,17 @@ $(function(){
         //拼接请求参数
         var params = {
             "mobile":mobile,
-            "sms_code":smscode,
-            "password":password
+            // "sms_code":smscode,
+            "password":password,
         }
-        /*
+
         $.ajax({
             url:'/passport/register',
             type:'post',
             data:JSON.stringify(params),
+            // data:JSON.stringify(params),
             contentType:'application/json',
-            headers:{'X-CSRFToken':getCookie('csrf_token')},
+            // headers:{'X-CSRFToken':getCookie('csrf_token')},
             success: function (resp) {
                 //判断是否注册成功
                 if(resp.errno == '0'){
@@ -199,7 +200,7 @@ $(function(){
                 }
             }
         })
-        */
+
     })
 })
 

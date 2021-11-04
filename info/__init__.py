@@ -4,7 +4,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from redis import StrictRedis
 from flask_session import Session
-from flask_wtf.csrf import CSRFProtect
+# from flask_wtf.csrf import CSRFProtect
 from config import config_dict
 import logging
 
@@ -40,7 +40,7 @@ def create_app(config_name):
     Session(app)
 
     # 使用CSRFProtect保护app
-    CSRFProtect(app)
+    # CSRFProtect(app)
 
     # 将首页蓝图index_blue注册到app中
     from info.modules.index import index_blue
