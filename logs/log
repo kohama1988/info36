@@ -1525,3 +1525,12 @@ INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:09:37] "GET / HTTP/1.1" 200 
 INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:09:40] "GET / HTTP/1.1" 200 -
 INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:09:47] "POST /passport/login HTTP/1.1" 200 -
 INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:09:47] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/config.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/passport/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:14:39] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:14:44] "POST /passport/logout HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:14:44] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:14:51] "POST /passport/login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:14:51] "GET / HTTP/1.1" 200 -

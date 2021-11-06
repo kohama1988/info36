@@ -17,6 +17,7 @@ class Config():
     # 数据库配置
     SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:aisin-aw23@localhost:3306/info36"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    SQLALCHEMY_COMMIT_ON_TEARDOWN = True # 每当改变数据库中数据时就会自动提交
 
     # redis配置信息
     REDIS_HOST = "127.0.0.1"
