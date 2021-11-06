@@ -4,7 +4,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from redis import StrictRedis
 from flask_session import Session
-# from flask_wtf.csrf import CSRFProtect
+from flask_wtf.csrf import CSRFProtect, generate_csrf
 from config import config_dict
 import logging
 
@@ -40,7 +40,13 @@ def create_app(config_name):
     Session(app)
 
     # 使用CSRFProtect保护app
-    # CSRFProtect(app)
+    """
+    使用ajax提交时
+     - 在cookie中设置csrf_token（自己写）
+     - 在请求头中设置csrf_token（自己写）
+     - 服务器： 取出2者进行校验
+    """
+    CSRFProtect(app)
 
     # 将首页蓝图index_blue注册到app中
     from info.modules.index import index_blue
@@ -49,6 +55,14 @@ def create_app(config_name):
     from info.modules.passport import passport_blue
     app.register_blueprint(passport_blue)
 
+    # 使用请求钩子拦截所有的请求，通过的在cookie中设置csrf_token
+    @app.after_request
+    def after_request(resp):
+        csrf_token = generate_csrf()
+        resp.set_cookie('csrf_token',csrf_token)
+        return resp
+
+    print(app.url_map)
     return app
 
 def log_file(LEVEL_NAME):
