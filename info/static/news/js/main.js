@@ -205,16 +205,16 @@ $(function(){
 
 //退出登陆
 function logout() {
-    /*
+
     $.ajax({
         url:'/passport/logout',
         type:'post',
-        headers:{'X-CSRFToken':getCookie('csrf_token')},
+        // headers:{'X-CSRFToken':getCookie('csrf_token')},
         success:function (resp) {
             window.location.reload()
         }
     })
-    */
+
 }
 
 

@@ -89,3 +89,9 @@ def login():
     session['user_id'] = user.id
 
     return jsonify(errno='0', errmsg='登录成功')
+
+@passport_blue.route('/logout', methods=['POST'])
+def logout():
+    # 清除session信息
+    session.pop('user_id', None)
+    return jsonify(errno='0', errmsg='退出成功')
