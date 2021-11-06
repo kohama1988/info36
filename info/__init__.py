@@ -9,6 +9,8 @@ from config import config_dict
 import logging
 
 # 定义redis_store变量
+from info.utils.commons import hot_news_filter
+
 redis_store = None
 
 # 定义数据库文件
@@ -54,6 +56,9 @@ def create_app(config_name):
 
     from info.modules.passport import passport_blue
     app.register_blueprint(passport_blue)
+
+    # 将函数添加到默认过滤器列表
+    app.add_template_filter(hot_news_filter,'my_filter')
 
     # 使用请求钩子拦截所有的请求，通过的在cookie中设置csrf_token
     @app.after_request

@@ -1563,3 +1563,99 @@ INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:30:39] "GET /static/news/ima
 INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:30:46] "POST /passport/login HTTP/1.1" 200 -
 INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:30:49] "POST /passport/login HTTP/1.1" 200 -
 INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:30:49] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/index/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/index/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:26:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:26:38] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:26:38] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:26:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:26:38] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:26:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/index/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/index/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+ERROR views.py:26 (pymysql.err.OperationalError) (1038, 'Out of sort memory, consider increasing server sort buffer size')
+[SQL: SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.`status` AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 10}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:28:44] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/index/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+ERROR views.py:26 (pymysql.err.OperationalError) (1038, 'Out of sort memory, consider increasing server sort buffer size')
+[SQL: SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.`status` AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 10}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:30:17] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/index/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+ERROR views.py:26 (pymysql.err.OperationalError) (1038, 'Out of sort memory, consider increasing server sort buffer size')
+[SQL: SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.`status` AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 10}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:35:43] "GET / HTTP/1.1" 200 -
+ERROR views.py:26 (pymysql.err.OperationalError) (1038, 'Out of sort memory, consider increasing server sort buffer size')
+[SQL: SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.`status` AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 10}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:35:44] "GET / HTTP/1.1" 200 -
+ERROR views.py:26 (pymysql.err.OperationalError) (1038, 'Out of sort memory, consider increasing server sort buffer size')
+[SQL: SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.`status` AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks DESC 
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 10}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:36:21] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/index/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+ERROR views.py:26 (pymysql.err.OperationalError) (1038, 'Out of sort memory, consider increasing server sort buffer size')
+[SQL: SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.`status` AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks 
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 10}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:38:44] "GET / HTTP/1.1" 200 -
+ERROR views.py:26 (pymysql.err.OperationalError) (1038, 'Out of sort memory, consider increasing server sort buffer size')
+[SQL: SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.`status` AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks 
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 10}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:41:22] "GET / HTTP/1.1" 200 -
+ERROR views.py:26 (pymysql.err.OperationalError) (1038, 'Out of sort memory, consider increasing server sort buffer size')
+[SQL: SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.`status` AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks 
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 10}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:41:53] "GET / HTTP/1.1" 200 -
+ERROR views.py:26 (pymysql.err.OperationalError) (1038, 'Out of sort memory, consider increasing server sort buffer size')
+[SQL: SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.`status` AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks 
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 10}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:42:27] "GET / HTTP/1.1" 200 -
+ERROR views.py:26 (pymysql.err.OperationalError) (1038, 'Out of sort memory, consider increasing server sort buffer size')
+[SQL: SELECT info_news.create_time AS info_news_create_time, info_news.update_time AS info_news_update_time, info_news.id AS info_news_id, info_news.title AS info_news_title, info_news.source AS info_news_source, info_news.digest AS info_news_digest, info_news.content AS info_news_content, info_news.clicks AS info_news_clicks, info_news.index_image_url AS info_news_index_image_url, info_news.category_id AS info_news_category_id, info_news.user_id AS info_news_user_id, info_news.`status` AS info_news_status, info_news.reason AS info_news_reason 
+FROM info_news ORDER BY info_news.clicks 
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 10}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:42:28] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:42:36] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/utils/commons.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/__init__.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 21:49:25] "GET / HTTP/1.1" 200 -
