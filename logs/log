@@ -1503,3 +1503,25 @@ INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 16:48:32] "POST /passport/login
 INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 16:48:32] "GET / HTTP/1.1" 200 -
 INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 16:48:42] "POST /passport/logout HTTP/1.1" 200 -
 INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 16:48:42] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 16:49:50] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 16:49:51] "GET /passport/image_code?cur_id=ddee2a75-6e01-462b-8f66-e79027eec7d3&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 16:50:00] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 16:50:00] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 16:50:08] "POST /passport/login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 16:50:08] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/passport/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:07:38] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:07:40] "POST /passport/logout HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:07:40] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:07:49] "POST /passport/login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:07:49] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/passport/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/passport/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:09:37] "POST /passport/logout HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:09:37] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:09:40] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:09:47] "POST /passport/login HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 17:09:47] "GET / HTTP/1.1" 200 -
