@@ -57,6 +57,8 @@ def create_app(config_name):
     from info.modules.passport import passport_blue
     app.register_blueprint(passport_blue)
 
+    from info.modules.news import news_blue
+    app.register_blueprint(news_blue)
     # 将函数添加到默认过滤器列表
     app.add_template_filter(hot_news_filter,'my_filter')
 

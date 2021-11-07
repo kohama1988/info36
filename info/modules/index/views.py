@@ -24,12 +24,12 @@ def newslist():
     try:
         filter = text('')
         if cid != '1':
-            filter = text(News.category_id == cid)
+            filter = News.category_id == cid
         paginate = News.query.filter(filter).order_by(News.create_time.desc()).paginate(page, per_page, False)
 
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno='1', errmsg='获取新闻失败')
+        # return jsonify(errno='1', errmsg='获取新闻失败')
 
     # 获取到分页对象中的属性，总页数，当前页，当前页的对象列表
     totalPage = paginate.pages

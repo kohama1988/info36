@@ -1834,3 +1834,174 @@ INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 23:08:37] "GET /newslist?page=1
 INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 23:22:07] "GET /newslist?page=2&cid=1&per_page=5 HTTP/1.1" 200 -
 INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 23:22:07] "GET /newslist?page=3&cid=1&per_page=5 HTTP/1.1" 200 -
 INFO _internal.py:225 127.0.0.1 - - [06/Nov/2021 23:22:12] "GET /newslist?page=4&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:46:47] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:46:47] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:46:49] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:46:50] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:46:51] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:46:51] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:46:51] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:46:52] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:46:52] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:46:52] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:46:59] "GET /newslist?page=2&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:47:03] "GET /newslist?page=3&cid=1&per_page=5 HTTP/1.1" 200 -
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:47:59] "GET /newslist?page=1&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:48:03] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:50:10] "GET / HTTP/1.1" 200 -
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:51:44] "GET /newslist?page=1&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:19] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:20] "GET /newslist?page=1&cid=3&per_page=5 HTTP/1.1" 200 -
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:28] "GET /newslist?page=1&cid=4&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:39] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:41] "GET /favicon.ico HTTP/1.1" 200 -
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:52:41] "GET /newslist?page=1&cid=3&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:53:27] "GET / HTTP/1.1" 200 -
+ERROR views.py:31 expected string or bytes-like object
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:53:44] "GET /newslist?page=1&cid=4&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:53:44] "GET /newslist?page=1&cid=3&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:53:44] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:53:55] "GET /newslist?page=1&cid=3&per_page=5 HTTP/1.1" 200 -
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:54:07] "GET /newslist?page=1&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:55:19] "GET / HTTP/1.1" 200 -
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:55:46] "GET /newslist?page=1&cid=3&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:56:29] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:57:01] "GET /newslist?page=3&cid=3&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/index/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:57:25] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:57:35] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:57:35] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:57:35] "GET /newslist?page=2&cid=1&per_page=5 HTTP/1.1" 200 -
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 00:57:37] "[35m[1mGET /newslist?page=1&cid=2&per_page=5 HTTP/1.1[0m" 500 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:00:00] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:00:00] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:00:01] "[35m[1mGET /newslist?page=1&cid=2&per_page=5 HTTP/1.1[0m" 500 -
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:00:03] "[35m[1mGET /newslist?page=1&cid=3&per_page=5 HTTP/1.1[0m" 500 -
+ERROR views.py:31 expected string or bytes-like object
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:00:05] "[35m[1mGET /newslist?page=1&cid=4&per_page=5 HTTP/1.1[0m" 500 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:00:31] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/index/views.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:01:40] "GET / HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:01:58] "GET /newslist?page=1&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:01:58] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:01:58] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:02:06] "GET /newslist?page=1&cid=3&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:02:07] "GET /newslist?page=1&cid=4&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:02:08] "GET /newslist?page=1&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:02:10] "GET /newslist?page=1&cid=6&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:02:13] "GET /newslist?page=1&cid=4&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:02:15] "GET /newslist?page=1&cid=3&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:02:16] "GET /newslist?page=1&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:02:18] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:02:20] "GET /newslist?page=1&cid=3&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:02:21] "GET /newslist?page=1&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:17] "GET /newslist?page=2&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:17] "GET /newslist?page=3&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:18] "GET /newslist?page=4&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:18] "GET /newslist?page=5&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:19] "GET /newslist?page=6&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:19] "GET /newslist?page=7&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:23] "GET /newslist?page=8&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:23] "GET /newslist?page=9&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:23] "GET /newslist?page=10&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:23] "GET /newslist?page=11&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:24] "GET /newslist?page=12&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:24] "GET /newslist?page=13&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:24] "GET /newslist?page=14&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:24] "GET /newslist?page=15&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:24] "GET /newslist?page=16&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:24] "GET /newslist?page=17&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:25] "GET /newslist?page=18&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:25] "GET /newslist?page=19&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:25] "GET /newslist?page=20&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:29] "GET /newslist?page=1&cid=6&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:30] "GET /newslist?page=1&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:30] "GET /newslist?page=2&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:30] "GET /newslist?page=3&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:31] "GET /newslist?page=4&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:31] "GET /newslist?page=5&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:31] "GET /newslist?page=6&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:31] "GET /newslist?page=7&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:31] "GET /newslist?page=8&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:32] "GET /newslist?page=9&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:32] "GET /newslist?page=10&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:32] "GET /newslist?page=11&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:32] "GET /newslist?page=12&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:32] "GET /newslist?page=13&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:33] "GET /newslist?page=14&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:33] "GET /newslist?page=15&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:33] "GET /newslist?page=16&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:33] "GET /newslist?page=17&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:33] "GET /newslist?page=18&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:33] "GET /newslist?page=19&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:34] "GET /newslist?page=20&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:34] "GET /newslist?page=21&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:34] "GET /newslist?page=22&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:34] "GET /newslist?page=23&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:34] "GET /newslist?page=24&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:34] "GET /newslist?page=25&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:35] "GET /newslist?page=26&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:35] "GET /newslist?page=27&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:35] "GET /newslist?page=28&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:35] "GET /newslist?page=29&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:35] "GET /newslist?page=30&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:36] "GET /newslist?page=31&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:36] "GET /newslist?page=32&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:36] "GET /newslist?page=33&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:36] "GET /newslist?page=34&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:37] "GET /newslist?page=35&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:37] "GET /newslist?page=36&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:37] "GET /newslist?page=37&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:37] "GET /newslist?page=38&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:38] "GET /newslist?page=39&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:41] "GET /newslist?page=40&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:41] "GET /newslist?page=41&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:42] "GET /newslist?page=42&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:43] "GET /newslist?page=43&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:43] "GET /newslist?page=44&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:43] "GET /newslist?page=45&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:44] "GET /newslist?page=46&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:45] "GET /newslist?page=47&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:45] "GET /newslist?page=48&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:45] "GET /newslist?page=49&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:45] "GET /newslist?page=50&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:45] "GET /newslist?page=51&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:45] "GET /newslist?page=52&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:45] "GET /newslist?page=53&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:46] "GET /newslist?page=54&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 01:04:47] "GET /newslist?page=55&cid=5&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/modules/news/__init__.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225  * Detected change in '/Users/hiroshi/PycharmProjects/flaskbbs/info/__init__.py', reloading
+INFO _internal.py:225  * Restarting with stat
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 11:48:18] "[33mGET /news_detail HTTP/1.1[0m" 404 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 11:48:27] "GET /news/news_detail HTTP/1.1" 200 -
+INFO _internal.py:225 127.0.0.1 - - [07/Nov/2021 11:48:30] "GET /newslist?page=2&cid=1&per_page=5 HTTP/1.1" 200 -
